@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+
+:root{
+    --font-primary: "Baloo Da 2", serif;
+    --font-secundary: "Josefin Slab", serif;
+    --font-action: "Mulish", serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+
+.menu{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.menu ul{
+    
+    background-color: #49cbe9;
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-left: 9rem;
+    font-size: 16px;
+    font-family: var(--font-primary);
+    font-weight: 800;
+    
+    
+}
+
+.menu ul li a{
+    display: block;
+    display: inline-block;
+    color: #fff; 
+    text-transform: uppercase;
+
+}
+
+a{
+    text-decoration: none ;
+}
+
+.menu ul li a:hover{
+    color: #1a1aff;
+}
+
+.banner{
+   
+   
+}
+
+.sessao-inicio{
+
+}
+
+.sessao-quemsomos{
+    width: 100%;
+    background-color: brown;
+    
+    
+}
+.sessao-quemsomos h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.sessao-orcamentos{
+    background-color: chartreuse;
+}
+.sessao-orcamentos h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
